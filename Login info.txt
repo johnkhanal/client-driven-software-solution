@@ -1,0 +1,11 @@
+admin login credentials
+username: admin
+password: claybrook
+
+visitor login credentials
+username: user
+password: password
+
+sponsor login credentials
+username: sponsor
+password: sponsor

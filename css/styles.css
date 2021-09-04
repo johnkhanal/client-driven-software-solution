@@ -1,0 +1,166 @@
+.bg-green{
+	background: #014E2E;
+}
+
+.text-green{
+	color: #014E2E;
+}
+
+.bg-green-lite{
+	background: #1A5F42;
+}
+
+.text-green-lite{
+	color: #1A5F42;
+}
+
+
+.logo{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border: 2px inset white;
+}
+
+
+.hr-sm{
+	width: 40%;
+	margin-left: 0 !important;
+	border: 1px solid white;
+}
+
+.footer-social a i{
+	color: white;
+}
+
+.footer-social a i:hover{
+	color: #ffc107;
+}
+
+
+/*homepage*/
+
+.carousel img{
+	height: 80vh;
+}
+
+.carousel-side{
+	position: absolute;
+	top: 20vh;
+	left: 10%;
+	width: 40%;
+}
+
+.carousel-side .card{
+	background: rgba(255,255,255,0.6);
+}
+
+.carousel-side h1{
+	font-weight: bold;
+}
+
+.hr{
+	width: 20%;
+	border: 1px solid #014E2E;
+	margin-left: 0;
+}
+
+.home-extra .hr{
+	border: 1px solid white;
+}
+
+.home-map img{
+	height: 80vh;
+	width: 100%;
+}
+
+.home-animals img{
+	height: 200px;
+	width: 100%;
+}
+
+.home-featured img{
+	height: 170px;
+	width: 170px;
+	border: 3px dotted white;
+	box-shadow: 0px 0px 5px 5px white;
+}
+
+.home-sponsered img{
+	height: 170px;
+	width: 170px;
+	border: 3px dotted #014E2E;
+	box-shadow: 0px 0px 5px 5px #1A5F42;
+	transition: 3s ease-in-out;
+}
+
+.home-sponsered img:hover{
+	transform: rotate(360deg);
+}
+
+.gallery img{
+	height: 200px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.mapouter{
+	position: relative;
+	text-align: right;
+	height: 500px;
+	width: 100%;
+}
+
+#gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 500px;
+	width: 100%;
+	border: 1px solid gray;
+}
+
+.profile-details img{
+	height: 270px !important;
+	width: 70%;
+}
+
+.view-animals img{
+	height: 220px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+	.carousel-side h3{font-size: 1rem;}
+	.carousel-side h1{font-size: 1.3rem;}
+	.carousel-side p{font-size: 0.8rem;}
+	.carousel-side { width: 80%; top: 20%; background: rgba(255, 255, 255, 0.2) !important;}
+
+	.carousel img{
+		height: 60vh;
+	}
+
+	.home-map img{
+		height: 200px !important;
+	}
+
+	.home-featured{ margin-top: 25px; }
+	.home-featured .text-right, .home-featured .text-left{ text-align: center !important; }
+
+	#gmap_canvas { height: 250px; }
+	.mapouter { height: 250px; }
+
+	.login-page .login-row{ display: flex; flex-direction: column-reverse; }
+	.login-page .login-row img{height: 100px;}
+	.login-page .login-row .text-right, .profile .text-right{text-align: center !important;}
+	.profile-details img{height: 100px; width: auto; display: none;}
+	.profile-details .ml-5{margin: 0 !important; padding: 25px 0;}
+	.view-animals img{height: 150px;}
+	.view-img{margin-top: 20px;}
+
+	.vacancies .row{flex-direction: column-reverse;}
+	.vacancies .text-right{ text-align: left !important; }
+}
